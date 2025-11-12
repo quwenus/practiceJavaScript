@@ -1,0 +1,25 @@
+main,
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form {
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 5px;
+}
+
+
+.input-error {
+    border: 2px solid red;
+    background-color: #fff0f0;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма заполнения</title>
+    <link rel="stylesheet" href="/css/form.css">
+    <script src="/js/form.js" defer type="module"></script>
+</head>
+
+<body>
+    <header>
+        <div id="addForm">
+            <h1>Форма добавления студента</h1>
+        </div>
+    </header>
+    <main>
+        <div id="form">
+            <form action="" id="studentForm">
+                <input type="text" id="name" placeholder="Имя" required>
+                <input type="text" id="surname" placeholder="Фамилия" required>
+                <input type="text" id="patronymic" placeholder="Отчество">
+                <label for="birth_date">Дата рождения</label>
+                <input type="date" id="birth_date" required>
+                <label for="start">Год начала обучения</label>
+                <input type="date" id="start" required>
+                <input type="text" id="faculty" placeholder="Факультет" required>
+                <button id="addStudent">Добавить студента</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
